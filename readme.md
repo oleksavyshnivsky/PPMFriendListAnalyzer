@@ -65,4 +65,4 @@ Tested: Latest Chrome for Windows, Tampermonkey extension
    2. Tap on **FLA** in the upper right corner
    3. Continue with the main [order of actions](#order-of-actions) 
 
-[Video](https://drive.google.com/file/d/1-XhIDB5iNXt7diHL7vlIdpErtqfVVegT/view?usp=sharing) (27.5 MB)
+[Video](https://youtu.be/GH_tfMzrYpwg) (27.5 MB)
