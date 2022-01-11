@@ -6,7 +6,7 @@ Goal: To see when was each PPM friend last time logged in the game. Specifically
 
 Tested: Latest Chrome for Windows, Tampermonkey extension
 
-Order of actions: 
+## Order of actions: 
 
 0. Setup userscript
 
@@ -43,5 +43,26 @@ Order of actions:
    - Click the fourth button — **Before uninstall** — to remove the userscript data from the browser local storage
    - Switch it off in the userscript extension 
 
+## Android install
 
+0. Install  **[Kiwi browser for Android](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)** 
+1. Download the raw script to the device
+   1. Open this repo page in a browser on Android (*any browser that has permit to write files*)
+   2. Open **View code** block
+   3. Open **PPMFriendListAnalyzer.user.js** file
+   4. Right above the contents of the file tap **[...]** — **View raw**
+   5. Download the raw file to the device
+2. Install the script in Kiwi browser for Android 
+   1. Open Kiwi browser
+   2. Tap **[Three vertical dots]**  — **Extensions**
+   3. Switch on  **Developer mode** if it's off (it may be *on* by default)
+   4. Click **+(from .zip/.crx/.user.js)**
+   5. Select downloaded file. Card of this script will appear on the Extensions page
+   6. Switch on this script in the bottom right corner of its card
+   7. Tap OK in the popup window
+3. Open PPM website in Kiwi browser
+   1. Load PPM page
+   2. Tap on **FLA** in the upper right corner
+   3. Continue with the main [order of actions](#order-of-actions) 
 
+![video](https://drive.google.com/uc?id=1-XhIDB5iNXt7diHL7vlIdpErtqfVVegT)
